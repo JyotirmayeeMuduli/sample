@@ -1,0 +1,31 @@
+
+Member Class:
+===============
+
+id
+name
+gender
+mother
+father
+spouse
+children
+
+methods:
+=======
+
+constructor: Initialixes King and Queen
+
+set_mother
+set_spouse
+set_father
+add_child
+
+get_paternal_uncle: self.father.mother.children[male]
+get_maternal_uncle: self.mother.mother.children[male]
+get_paternal_aunt: self.father.mother.children[female]
+get_maternal_aunt:self.mother.mother.children[female]
+get_sister_inlaw
+get_brother_inlaw
+son
+daugther
+siblings
